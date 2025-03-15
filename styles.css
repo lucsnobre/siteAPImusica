@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #008000;
+    padding: 15px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.search-bar {
+    text-align: center;
+    margin: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search-bar button {
+    padding: 10px 15px;
+    background-color: #008000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.artists-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.artist-card {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+}
+
+.artist-card img {
+    width: 100%;
+    border-radius: 10px;
+}
